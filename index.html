@@ -101,6 +101,85 @@
   
   </div>
      </section>
+     <section class="carrosel">
+      <h2 class="carrosel__titulo">Mais vendidos</h2>
+      <!--slider man container -->
+      <div class="swiper">
+         <div class="swiper-pagination"></div>
+         <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da Alura Books"></div>
+            <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em desing no alura books"></div>
+            <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo no alura books"></div>
+            <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"></div>
+            <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+            <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
+            ...
+         </div>
+
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+
+         <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+               <!-- 1º coluna-->
+               <div class="descrição">
+                  <img src="img/Estrelinhas.svg" alt="Avaliação de 5 Estrelas">
+                  <h3 class="descrição__titulo">Autora do mês</h3>
+                  <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+                  <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+               </div>
+               <!-- 2º coluna -->
+               <img src="img/Perfil-escritora 1.svg" class="descrição__imagem">
+            </div>
+      
+            <!-- 2º linha -->
+            <div class="card__botões">
+               <!-- 1º coluna -->
+               <ul class="botões">
+                  <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar Livro"></li>
+                  <li class="botões__item"><img src="img/Compras.svg" alt="adicionar no carrinho de comprtas"></li>
+               </ul>
+               <!--2º coluna -->
+               <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+   </section>
+
+   <section class="tópicos">
+      <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <ul class="tópicos__lista">
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Android</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Marketing Digital</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Agile</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Startups</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">HTML e CSS</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">python</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">OO</a>
+         </li> 
+         <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Java</a>
+         </li>
+      </ul>
+   </section>
+
+   <section class="contato">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+   </section>
 
      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
      <script>
@@ -113,6 +192,11 @@
         },
          });
      </script>
+      
+
+
+
      </body>
+
 
 </html>
